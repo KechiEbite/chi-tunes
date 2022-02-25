@@ -38,6 +38,7 @@ body{
     padding: 10%;
     color: #dcd9d9;
     text-align: center;
+    overflow: hidden;
 }
 
 .header_image h1{
@@ -48,4 +49,37 @@ body{
 }
 .header_image p{
     font-size: 150%;
+}
+.purple_bg{
+    background-color: #23033f;
+    color: #dcd9d9;
+    padding: 1%;
+    text-align: center;
+}
+.purple_bg h1{
+    font-size: 300%;
+}
+.purple_bg h2{
+    font-size: 170%;
+}
+.purple_bg p{
+    font-size: 150%;
+}
+.purple_bg button{
+    color:#dcd9d9;
+    background-color: #a20160;
+    padding: 18px 25px;
+    font-size: 90%;
+    border: none;
+}
+.purple_bg button:hover{
+    background-color: #b41873;
+    color:#dcd9d9;
+}
+.purple_bg img{
+    width: 80%;
+    height: auto;
+}
+.purple_bg .p2{
+    font-size: 14px;
 }
