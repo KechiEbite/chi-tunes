@@ -1,0 +1,30 @@
+body{
+    background-color: #dcd9d9;
+    margin: 0%;
+    font-family: 'PT Sans', sans-serif;
+}
+.topnavbar{
+    background-color: #23033f;
+    overflow: hidden;
+    display: flex;
+}
+.topnavbar a{
+    float: left;
+    color:#faf6eb;
+    text-align: center;
+    padding: 1% 5%;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+}
+.topnavbar a:hover{
+    background-color: #adb3dc;
+    color: #23033f;
+}
+
+/*WHEN THE SCREEN IS LESS THAN 600 PIXELS WIDE, HIDE ALL LINKS, EXCEPT FOR THE FIRST ONE ("ChiTunes"). SHOW THE LINK THAT CONTAINS SHOULD OPEN AND CLOSE THE topnavbar (.icon) */
+@media screen and (max-width: 768px) {
+    .topnavbar, .topnavbar a{
+        flex-direction: column;
+    }   
+}
