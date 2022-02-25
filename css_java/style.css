@@ -28,3 +28,24 @@ body{
         flex-direction: column;
     }   
 }
+
+.header_image{
+    background-image: url(../images/anime_music_girl_chitunes.jpg);
+    background-color: #23033f;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    color: #dcd9d9;
+    text-align: center;
+}
+
+.header_image h1{
+    font-size: 370%;
+}
+.header_image h3{
+    font-size: 170%;
+}
+.header_image p{
+    font-size: 150%;
+}
