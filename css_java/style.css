@@ -34,13 +34,17 @@ body{
     background-color: #23033f;
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10%;
+    padding: 20%;
     color: #dcd9d9;
     text-align: center;
     overflow: hidden;
 }
-
+@media screen and (max-width: 768px){
+    .header_image{
+        background-size: cover;
+        padding:15px;
+    }
+}
 .header_image h1{
     font-size: 370%;
 }
