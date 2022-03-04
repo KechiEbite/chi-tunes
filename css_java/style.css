@@ -81,9 +81,42 @@ body{
     color:#dcd9d9;
 }
 .purple_bg img{
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin: auto;
 }
 .purple_bg .p2{
     font-size: 14px;
+}
+
+
+.orange_bg{
+    background-color: #fc8d14;
+    padding: 5% 10%;
+}
+.orange_bg h2{
+    text-align: center;
+    font-size: 35px;
+}
+.orange_bg p{
+    text-align: center;
+    font-size: 21px;
+    margin: 3% 8%;
+}
+.orange_bg button{
+    color:#dcd9d9;
+    background-color: #a20160;
+    padding: 18px 25px;
+    font-size: 90%;
+    border: none;
+    margin: 0 43.5%;
+}
+.orange_bg button:hover{
+    background-color: #b41873;
+    color:#dcd9d9;
+}
+.orange_bg img{
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
